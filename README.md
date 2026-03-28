@@ -41,7 +41,7 @@ That's it. The widget fetches data from the AlloyFYI API and renders with full s
 | `data-alloyfyi` | entity, compare, glossary, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "alloys" | — | Entity slug from the AlloyFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, technical | modern | Widget design style |
+| `data-styleVariant` | modern, technical | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Alloys..." | Search box placeholder |
 
@@ -65,10 +65,10 @@ That's it. The widget fetches data from the AlloyFYI API and renders with full s
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-alloyfyi="entity" data-slug="alloys" data-style="modern"></div>
+<div data-alloyfyi="entity" data-slug="alloys" data-styleVariant="modern"></div>
 
 <!-- Technical — monospace type, grid overlays, laboratory aesthetic -->
-<div data-alloyfyi="entity" data-slug="alloys" data-style="technical"></div>
+<div data-alloyfyi="entity" data-slug="alloys" data-styleVariant="technical"></div>
 ```
 
 ## Web Components (Custom Elements)
