@@ -1,7 +1,7 @@
 {
   "name": "alloyfyi-embed",
-  "version": "1.0.0",
-  "description": "Embed AlloyFYI alloy widgets — radar charts, composition bars, property cards. Zero dependencies, Shadow DOM, 4 themes.",
+  "version": "1.0.1",
+  "description": "Embed AlloyFYI alloy widgets \u2014 radar charts, composition bars, property cards. Zero dependencies, Shadow DOM, 4 themes.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",
   "types": "dist/index.d.ts",
