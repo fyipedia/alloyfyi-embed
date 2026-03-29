@@ -1,21 +1,51 @@
 # AlloyFYI Embed Widget
 
-> Embeddable AlloyFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Metal alloys, compositions. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/alloyfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/alloyfyi-embed@1/dist/embed.min.js"></script>
+<div data-alloyfyi="alloy-radar" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- entity: `data-alloyfyi="entity"`
+- glossary: `data-alloyfyi="glossary"`
+- guide: `data-alloyfyi="guide"`
+- compare: `data-alloyfyi="compare"`
+- search: `data-alloyfyi="search"`
+- alloy-radar (interactive): `data-alloyfyi="alloy-radar"`
+- composition-bar (interactive): `data-alloyfyi="composition-bar"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-alloyfyi="alloy-radar" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/alloyfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://alloyfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://alloyfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://alloyfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://alloyfyi.com
 - Widget docs: https://widget.alloyfyi.com
-- npm: https://www.npmjs.com/package/alloyfyi-embed
+- API documentation: https://alloyfyi.com/developers/
+- npm package: https://www.npmjs.com/package/alloyfyi-embed
 - GitHub: https://github.com/fyipedia/alloyfyi-embed
-- API: https://alloyfyi.com/developers/
 
-## Science FYI Widget Family
+## Science FYI Widget Network
 
 - [ChemFYI Widget](https://widget.chemfyi.com)
 - [GemFYI Widget](https://widget.gemfyi.com)
