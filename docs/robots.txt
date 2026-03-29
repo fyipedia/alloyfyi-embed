@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# AlloyFYI Embed Widget
+# Main site: https://alloyfyi.com
+# Widget docs: https://widget.alloyfyi.com
+# npm: https://www.npmjs.com/package/alloyfyi-embed
